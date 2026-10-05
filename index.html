@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Atmos Weather Privacy Policy</title>
+  <style>
+    :root{color-scheme:dark;--bg:#07111e;--panel:#0d2133;--ink:#f7fbff;--muted:#b8cad8;--cyan:#67e4ff}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 20% 0,#173e59 0,var(--bg) 42%);color:var(--ink);font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+    main{width:min(760px,calc(100% - 32px));margin:32px auto;padding:clamp(24px,5vw,48px);background:#0d2133e8;border:1px solid #ffffff20;border-radius:28px;box-shadow:0 24px 70px #0008}
+    h1{font-size:clamp(2rem,6vw,3.25rem);line-height:1.05;margin:.2em 0}h2{margin-top:2em;font-size:1.25rem;color:#dff8ff}p,li{color:var(--muted)}li{margin:.35em 0}strong{color:var(--ink)}a{color:var(--cyan)}.eyebrow{color:var(--cyan);text-transform:uppercase;letter-spacing:.14em;font-size:.74rem;font-weight:700}.date{font-size:.9rem}
+  </style>
+</head>
+<body><main>
+  <div class="eyebrow">Talkie Communications · Atmos Weather</div>
+  <h1>Privacy policy</h1>
+  <p class="date">Effective October 5, 2026</p>
+  <p>Atmos Weather is published by <strong>Talkie Communications</strong>. The app has no accounts, advertising, analytics or tracking SDKs. We do not run a server for Atmos Weather and we never receive your location or your weather requests.</p>
+
+  <h2>How the app knows where you are</h2>
+  <p>You choose in Settings:</p>
+  <ul>
+    <li><strong>Saved ZIP / postal code.</strong> The code you type is looked up with Open-Meteo's place search to find the town and its coordinates.</li>
+    <li><strong>Follow Me.</strong> The app uses your phone's location (Android location permission) to show the weather where you are. Android lets you allow precise or approximate location; the app works with either.</li>
+    <li><strong>Follow Me while the app is closed (optional).</strong> If you allow location <strong>"All the time"</strong>, the app checks your position about every 30 minutes while it is closed, so the home-screen widgets, the live wallpaper and severe-weather alerts follow you when you travel. If you allow only <strong>"While using the app"</strong>, they keep showing the last place you opened the app. You can change this at any time in Android Settings › Apps › Atmos Weather › Permissions. Background checks only happen in Follow Me mode; a saved ZIP is never replaced.</li>
+  </ul>
+
+  <h2>Who receives your location</h2>
+  <p>To get weather, your phone sends the coordinates (or ZIP) of the place being shown directly to these services over encrypted HTTPS:</p>
+  <ul>
+    <li><strong>Open-Meteo</strong>: forecast, place names and air quality.</li>
+    <li><strong>U.S. National Weather Service</strong>: forecast and watches/warnings for U.S. places.</li>
+    <li><strong>MET Norway</strong>: forecast.</li>
+    <li><strong>Radar map</strong>: Iowa Environmental Mesonet (U.S. radar images), RainViewer (radar outside the U.S.), CARTO (base map), Esri (road lines) and unpkg.com (map software). Map services see the area of the map you are viewing.</li>
+  </ul>
+  <p>Each service also sees your device's IP address and handles requests under its own privacy policy:
+    <a href="https://open-meteo.com/en/terms">Open-Meteo</a>,
+    <a href="https://www.weather.gov/privacy">National Weather Service</a>,
+    <a href="https://api.met.no/doc/TermsOfService">MET Norway</a>,
+    <a href="https://www.rainviewer.com/privacy.html">RainViewer</a>,
+    <a href="https://mesonet.agron.iastate.edu/disclaimer.php">Iowa Environmental Mesonet</a>,
+    <a href="https://www.esri.com/en-us/privacy/overview">Esri</a>,
+    <a href="https://carto.com/privacy">CARTO</a>.
+    Location is used only to show weather, radar and alerts for that place. It is never sold, and never used for advertising, profiling or analytics.</p>
+
+  <h2>What stays on your phone</h2>
+  <ul>
+    <li>Your settings and saved ZIP.</li>
+    <li>The last forecast, including the town name and coordinates of the place it was for, so the app, widgets and wallpaper always show the same place.</li>
+    <li>Theme video packs you download through Google Play.</li>
+    <li>Any photo you pick for the wallpaper (copied into the app's private storage and never uploaded).</li>
+    <li>Short troubleshooting logs of weather-alert and wallpaper events, which can include place names. They leave the phone only if you tap <strong>Share diagnostics</strong> and choose where to send them.</li>
+  </ul>
+  <p>Android cloud backup is turned off for this app. Clearing the app's storage or uninstalling it deletes everything above.</p>
+
+  <h2>Weather alerts</h2>
+  <p>If you allow notifications, the app checks the U.S. National Weather Service for watches and warnings for the place being shown, including while the app is closed, and notifies you. Atmos Weather is not an official warning service; always follow your local authorities.</p>
+
+  <h2>Weather data</h2>
+  <p>Forecasts and place names come from Open-Meteo (CC BY 4.0), the U.S. National Weather Service and MET Norway (CC BY 4.0 / NLOD 2.0). Radar comes from NOAA via the Iowa Environmental Mesonet and from RainViewer; maps from CARTO, OpenStreetMap contributors and Esri. Atmos combines and transforms this data; no provider endorses Atmos. Forecasts can be late, incomplete or wrong.</p>
+
+  <h2>Children</h2>
+  <p>Atmos Weather is a general-audience app and is not directed to children under 13. It does not knowingly collect names, contact details or account information from anyone.</p>
+
+  <h2>Changes and contact</h2>
+  <p>If the app's data practices change, this policy and its effective date will be updated. Questions or privacy requests: <a href="mailto:Andrew.demattia@talkiefiber.com">Andrew.demattia@talkiefiber.com</a>.</p>
+</main></body></html>
